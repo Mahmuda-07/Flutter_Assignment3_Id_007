@@ -55,6 +55,7 @@ class _CoinFlipClickerState extends State<CoinFlipClicker> {
         title: const Text("Coin Flip Clicker"),
         centerTitle: true,
         backgroundColor: Colors.teal,
+        
       ),
       body: Center(
         child: SizedBox(
@@ -106,9 +107,11 @@ class _CoinFlipClickerState extends State<CoinFlipClicker> {
                   const SizedBox(height: 25),
 
                   Text("Heads: $heads", style: const TextStyle(fontSize: 18,
-                  color: Colors.blueAccent)),
+                  color: Colors.blueAccent,
+                  fontWeight: FontWeight.bold)),
                   Text("Tails: $tails", style: const TextStyle(fontSize: 18,
-                  color: Colors.blueAccent)),
+                  color: Colors.blueAccent,
+                  fontWeight: FontWeight.bold)),
                   Text(
                     "Total Flips: $totalClicks",
                     style: const TextStyle(
